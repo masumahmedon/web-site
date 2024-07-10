@@ -138,7 +138,7 @@
 /* inspiration style */
 .inspiration-section{
     width: 1140px;
-    height: 777px;
+    height: 572px;
     margin: 0 auto;
     border: 2px solid red;
 }
@@ -206,8 +206,43 @@ iframe{
     border: none;
     border-bottom: 2px solid #0D1321;
 }
-/* .support-section{
+.support-section{
     width: 1140px;
-    height: 311px;
-    background-image: url(../images/);
-} */
+    height: 314px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 4px 4px;
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.support-container{
+    width: 1044px;
+    height: 186px;
+    margin: 0 auto;
+    margin: 64px 48px;
+    text-align: center;
+    border: 2px solid red;
+}
+.support-title, .support-description{
+    color: #ffffff;
+}
+.support-container input{
+    width: 500px;
+    height: 16px;
+    padding: 21px 22px;
+    border-radius: 8px;
+    border: none;
+    border-color: #FFFFFF;
+}
+.support-container .btn-submit{
+    width: 120px;
+    height: 58px;
+    padding: 21px 22px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Azeret Mono;
+    border-radius: 8px;
+}
+ 
