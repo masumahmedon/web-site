@@ -1,0 +1,36 @@
+
+/* banner-section style */
+.banner-section{
+    width: 1440px;
+    height: 652px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid red;
+    background-image: url(../images/Hero-bg.png);
+}
+.banner-container{
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    margin: 26px 221px 44px;
+    border: 2px solid red;
+}
+.banner-image{
+    width: 240.28;
+    height: 240px;
+}
+/* develop-section style */
+.develop-section{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.develop-container{
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    margin: 84px 117px 183px;
+    border: 2px solid red;
+}
