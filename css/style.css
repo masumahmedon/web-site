@@ -40,6 +40,10 @@
     margin: 26px 221px 44px;
     border: 2px solid red;
 }
+.banner-image{
+    width: 240.28;
+    height: 240px;
+}
 .banner-title{
     font-size: 48px;
     font-family: Azeret Mono;
@@ -54,10 +58,7 @@
     margin: 24px 73px;
 
 }
-.banner-image{
-    width: 240.28;
-    height: 240px;
-}
+
 /* develop-section style */
 .develop-section{
     width: 1140px;
@@ -66,9 +67,72 @@
     border: 2px solid red;
 }
 .develop-container{
-    width: 946px;
-    height: 1235px;
+    max-width: 946px;
+    height: 1180px;
     margin: 0 auto;
     margin: 84px 117px 183px;
     border: 2px solid red;
 }
+.dev{
+    /* width: 946px; */
+    height: 115px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px solid red;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.dev-title{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: Azeret Mono;
+    margin-bottom: 24px;
+
+}
+.dev-description{
+    font-size: 16px;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 26px;
+}
+.all-blog-item{
+    width: 903px;
+    height: 1072px;
+    border: 2px solid red;
+  
+}
+.blog-1{
+    width: 903px;
+    height: 336px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 98px;
+    border: 2px solid red; 
+}
+.blog-1-content,.blog-1-img{
+    margin: 54px 34px;
+}
+.blog-1-h3{
+    font-size: 24px;
+    font-family: Azeret Mono;
+    font-weight: 800;
+    line-height: 36px;
+}
+.btn-blog{
+    
+    font-size: 16;
+    font-family:Azeret Mono;
+    font-weight: 400;
+    color: #0D1321;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.gap{
+    margin-left: -68px;
+}
+
